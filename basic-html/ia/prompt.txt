@@ -1,0 +1,11 @@
+soy estudiante de sistemas y estoy aprendiendo html, css 
+y quiero crear mi hoja de vida (cv) con las siguientes sesiones:
+- Foto de perfil
+- Perfil
+- Experiencia laboral
+- Educación
+- Certificaciones
+- Contacto
+- Redes Sociales
+
+y quiero un resumen con la explicacion de las etiquetas, atributos y css agregado en la hoja de vida.
