@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <style>
+        .body{
+            padding: 5px;
+        }
+        .main{
+            padding: 5px;
+            border: 1px solid red;
+        }
+        nav{
+            background-color: hsla(204, 98%, 17%, 0.894);
+            padding: 20px;
+        }
+        nav ul{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px; /* Espacio entre componentes con el flexbox*/
+            list-style: none;
+            margin: 0;
+            padding: 0; 
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 18px;
+            color: #ffffff;
+            padding: 12px;
+            border-bottom: 1px solid #f39c12 ;
+        }
+        nav a:hover{
+            background-color: #3498db;
+            border-bottom-color:#f39c12 ;
+        }
+        nav a.activo{
+            background-color: #3498db;
+            border-bottom-color:#f39c12 ;
+        }
+        .derecha{
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#main" class="activo">Inicio</a></li>
+                <li><a href="#estadistica">Estadistica</a></li>
+                <li class="derecha"> <a href="" >Login</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main class="main"> 
+        <h1>Dashboard</h1>
+        <section id="main">
+            <h2>Resultados principales</h2>
+        </section>
+        <section id="estadistica">
+            <h2>Estadisticas</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad odio veritatis facere vero ea dignissimos quidem, aut obcaecati ratione eligendi quae consequatur, molestiae consequuntur voluptatum molestias illum provident a nam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt dolor accusamus deserunt reiciendis enim explicabo, culpa, voluptate rerum, eum voluptatem qui saepe doloribus earum nemo. Aliquid dolor vel laborum.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad odio veritatis facere vero ea dignissimos quidem, aut obcaecati ratione eligendi quae consequatur, molestiae consequuntur voluptatum molestias illum provident a nam?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad odio veritatis facere vero ea dignissimos quidem, aut obcaecati ratione eligendi quae consequatur, molestiae consequuntur voluptatum molestias illum provident a nam?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad odio veritatis facere vero ea dignissimos quidem, aut obcaecati ratione eligendi quae consequatur, molestiae consequuntur voluptatum molestias illum provident a nam?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad odio veritatis facere vero ea dignissimos quidem, aut obcaecati ratione eligendi quae consequatur, molestiae consequuntur voluptatum molestias illum provident a nam?</p>
+
+        </section>
+
+    </main>    
+</body>
+</html>
